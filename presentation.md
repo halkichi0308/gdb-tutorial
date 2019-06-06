@@ -182,7 +182,7 @@ gdb-peda$ pdisass runme
 
 .col-8[
 
-<img src="https://raw.githubusercontent.com/halkichi0308/gdb-tutorial/master/assets/02.jpg" width="80%">
+<img src="https://raw.githubusercontent.com/halkichi0308/gdb-tutorial/master/assets/02.png" width="80%">
 
 ]
 
@@ -191,18 +191,22 @@ gdb-peda$ pdisass runme
 ---
 - gdbの見方
 - 現在のレジスタ
+
 ![images](https://raw.githubusercontent.com/halkichi0308/gdb-tutorial/master/assets/registor.png)
 
 ---
 - 現在のフラグ(cmpなどの演算結果)
+
 ![images](https://raw.githubusercontent.com/halkichi0308/gdb-tutorial/master/assets/flag.png)
 
 ---
 - 実行命令
+
 ![images](https://raw.githubusercontent.com/halkichi0308/gdb-tutorial/master/assets/function.png)
 
 ---
 - スタック
+
 ![images](https://raw.githubusercontent.com/halkichi0308/gdb-tutorial/master/assets/stack.png)
 ---
 
