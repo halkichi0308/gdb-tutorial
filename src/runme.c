@@ -15,6 +15,10 @@ void runme(){
   }
   puts("\n");
 
+  for(int i=0; i<15; i++){
+    printf("%c", " ");
+  }
+
   return 0;
 }
 
@@ -25,12 +29,10 @@ int main(){
   scanf("%d", &arg);
 
   if(secret == 0xff){
-    if(secret == 0x03){
+    if(secret < 0x3){
       runme();
     }
   }
   puts("Please try again.");
   return 0;
 }
-
-//gcc -o runme runme.c -m32 -fno-stack-protector -std=c99
