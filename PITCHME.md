@@ -1,11 +1,17 @@
 # gdb-tutorial
 
 **勉強会用**  
-[こちら](https://gitpitch.com/halkichi0308/gdb-tutorial)でSlideを開いてくださいませ。
+まずは[こちら](https://gitpitch.com/halkichi0308/gdb-tutorial)でSlideを開いてくださいませ。
 
 +++
 ### 事前準備 ###
-ここから実行ファイルをダウンロード
+[ここ](https://github.com/halkichi0308/gdb-tutorial/raw/master/bin/runme)から実行ファイルをダウンロード
+
+または`github`より
+``` url
+https://github.com/halkichi0308/gdb-tutorial/blob/master/bin/runme
+```
+
 
 +++
 * まずはgdb起動
@@ -14,16 +20,18 @@ $ gdb
 ```
 
 +++
-* 実行ファイルを読み込んで
-``` sh
+- * 実行ファイルを読み込んで
+```
 gdb-peda$ file runme
 ```
+|
 
-* ブレークポイントをさします
-``` sh
+- * ブレークポイントをさします
+```
 gdb-peda$ b main
 Breakpoint 1 at 0x80484ea
 ```
+|
 +++
 * 実行します
 ```
