@@ -12,8 +12,12 @@ layout: true
 class: impact
 
 # {{title}}
-## With a good subtitle :-)
+## 201906 mkouda
 
+---
+### Agenda ###
+
+* gdbを使ってpwnしてみよう
 ---
 
 ### 事前準備 ###
@@ -305,3 +309,8 @@ gdb-peda$ run > dump.txt
 
 ---
 ### おわり ###
+
+
+
+---
+
