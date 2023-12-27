@@ -12,7 +12,7 @@ layout: true
 class: impact
 
 # {{title}}
-## 201906 mkouda
+## 201906 はるきち
 
 ---
 ### Agenda ###
@@ -80,7 +80,7 @@ gdb-peda$ r
 --
 .section[
 
-セクション名|説明
+セクション|説明
 :-|:-
 .text|機械語となる部分を格納。バイナリはここがメイン
 .data|初期値を持つ変数を格納。
