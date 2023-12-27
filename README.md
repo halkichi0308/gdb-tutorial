@@ -2,7 +2,7 @@
 
 ## Usage: ##
 * First, access following 
->https://gdb-tutorial-2aad3.web.app/#1
+https://halkichi0308.github.io/gdb-tutorial/
 
 
 ## Prepare ##
